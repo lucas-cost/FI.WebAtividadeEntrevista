@@ -1,0 +1,9 @@
+# Ignorar configurações e arquivos do Visual Studio
+.vs/
+.vscode/
+packages/
+bin/
+obj/
+*.user
+*.suo
+*.log
