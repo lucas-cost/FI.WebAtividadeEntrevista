@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace FI.AtividadeEntrevista.DML
 {
@@ -59,6 +55,16 @@ namespace FI.AtividadeEntrevista.DML
         /// <summary>
         /// Telefone
         /// </summary>
-        public string Telefone { get; set; }        
+        public string Telefone { get; set; }
+
+        /// <summary>
+        /// CPF
+        /// </summary>
+        public string CPF { get; set; }
+
+        /// <summary>
+        /// Lista de beneficiários
+        /// </summary>
+        public List<Beneficiario> Beneficiarios { get; set; }
     }    
 }
