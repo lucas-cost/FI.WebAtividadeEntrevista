@@ -125,7 +125,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BeneficiarioModel.cs" />
     <Compile Include="Models\ClienteModel.cs" />
+    <Compile Include="Models\Validators\CPFValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

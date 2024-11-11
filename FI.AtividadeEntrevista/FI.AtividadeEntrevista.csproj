@@ -52,14 +52,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DAL\Beneficiarios\Procedures\FI_SP_AltBeneficiario.sql" />
+    <Content Include="DAL\Beneficiarios\Procedures\FI_SP_DelBeneficiario.sql" />
+    <Content Include="DAL\Beneficiarios\Procedures\FI_SP_IncBeneficiario.sql" />
     <Content Include="DAL\Clientes\Procedures\FI_SP_AltCliente.sql" />
     <Content Include="DAL\Clientes\Procedures\FI_SP_ConsCliente.sql" />
     <Content Include="DAL\Clientes\Procedures\FI_SP_DelCliente.sql" />
     <Content Include="DAL\Clientes\Procedures\FI_SP_IncCliente.sql" />
     <Content Include="DAL\Clientes\Procedures\FI_SP_PesqCliente.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAL\Beneficiarios\Procedures\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
